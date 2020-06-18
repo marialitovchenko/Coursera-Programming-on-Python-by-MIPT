@@ -23,7 +23,6 @@ args = parser.parse_args()
 key_values = {}
 # storage path
 storage_path = os.path.join(tempfile.gettempdir(), 'storage.data')
-print(storage_path)
 
 # open storage file, if it exists and read keys and values
 if os.path.isfile(storage_path):
